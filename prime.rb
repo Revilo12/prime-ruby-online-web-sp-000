@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(input)
   (2..5).all? do |num|
-    num ** input % num == 0 
+    (num ** input) % num == 0 
   end
 end
